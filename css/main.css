@@ -94,7 +94,7 @@
 .con01Info p:last-child{
     margin-top:20px;
     font-size:10px;
-    font-weight:200;
+    font-weight:100;
 }
 
 /*mainCon02*/
@@ -185,24 +185,25 @@
 }
 .con04Box h5{
     line-height:14px;
-    font-size:10px;
+    font-size:8px;
     font-weight:200;
 }
 .con04Box h4{
-    font-size:14px;
+    font-size:16px;
     font-weight:400;
     margin-bottom:20px;
 }
 .con04Box p{
-    font-size:12px;
-    font-weight:bold;
     line-height:20px;
-    vertical-align:text-top;
+    font-size:14px;
+    font-weight:600;
+    vertical-align:top;
 }
 .con04Box p span{
-    font-size:12px;
+    margin-left:5px;
+    font-size:14px;
     font-weight:normal;
-    vertical-align:text-top;
+    vertical-align:top;
 }
 .mainCon04 img{
     width:100%;
@@ -211,7 +212,7 @@
 
 .mapIco{margin-top:20px;}
 .mapIco li{
-    width:30px;
+    width:36px;
     float:left;
     margin-right:10px;
     margin-bottom:15px;
@@ -233,7 +234,7 @@
 }
 
 .call{
-    width:30px;
+    width:36px;
     display:inline-block;
     vertical-align:middle;
     margin-right:6px;
@@ -241,7 +242,8 @@
 .call img{width:100%;}
 .con04Box span{
     vertical-align:middle;
-    font-size:14px;
+    font-size:16px;
+    font-weight:200;
 }
 
 /*mainCon05*/
@@ -293,8 +295,8 @@
 .mainCon06 ul{}
 .mainCon06 li{
     float:left;
-    width:calc(25% - 10px);
-    margin-left:10px;
+    width:calc(20% - 10px);
+    margin-left:20px;
 }
 .mainCon06 li:last-child{margin-right:0;}
 .mainCon06 li img{
