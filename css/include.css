@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+#header{
+    z-index:1;
+    position:relative;
+}
+#header img{width:100%;}
+#header a{
+    display:block;
+    height:100%;
+}
+.hWrap{
+    position:absolute;
+    width:100%;
+    padding:10px 0;
+}
+
+.panel{
+    width:33px;
+    position:absolute;
+    margin-left:10px;
+}
+.panel a{}
+.panel a img{}
+
+#header h1{
+    width:67px;
+    margin:0 auto;
+}
+#header h1 a{}
+#header h1 img{}
+
+.util{
+    position:absolute;
+    right:0;
+    top:50%;
+    margin-top:-13px;
+}
+.util li{
+    float:left;
+    width:28px;
+    margin-right:10px;
+}
+
+.util li a{}
+.util li img{}
+
+/*footer*/
+#footer{
+    background:#e3e3e3;
+    text-align:center;
+    padding:30px 0;
+    margin-top:60px;
+}
+.fList{}
+.fList li{
+    display:inline-block;
+    font-size:12px;
+}
+
+.fList li a{}
+
+.fSns{margin:30px 0;}
+.fSns li{
+    display:inline-block;
+    width:23px;
+    margin-right:10px;
+    vertical-align: middle;
+}
+.fSns li:last-child{margin-right:0;}
+.fSns li a{
+    display:block;
+    width:100%;
+}
+.fSns li img{
+    width:100%;
+}
+
+.fSns .siteMap{
+    width:100px;
+    height:30px;
+    line-height:30px;
+    border:1px solid #000;
+    border-radius:50px;
+    font-size:12px;
+    text-align:left;
+    
+}
+.siteMap a{
+    display:block;
+    width:100%;
+    background:url(../images/common/fArrowIco.png) no-repeat 85% center;
+    background-size:8%;
+    padding:0 10px;
+    box-sizing:border-box;
+}
+
+.fInfo{
+    font-size:14px;
+    font-weight:200;
+}
+.fInfoTit{font-weight:400;}
+
+.fInfo span{
+    margin:20px 0;
+    display:inline-block;
+}
