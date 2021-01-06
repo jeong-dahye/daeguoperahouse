@@ -25,11 +25,13 @@
 }
 .sliderTxt span{display:block;}
 .sliderTxt p{
+    font-family:'HeirofLightBold','NanumMyeongjo', serif;
     font-size:14px;
     margin-top:20px;
     line-height:16px;
 }
 .sliderTxt p span{
+    font-family:'HeirofLightRegular','NanumMyeongjo', serif;
     font-size:6px;
     margin-top:10px;
 }
