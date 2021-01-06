@@ -83,11 +83,18 @@
     width:100%;
     box-sizing:border-box;
 }
-.con01Info h3{font-size:16px;}
-.con01Info p{font-size:12px;}
+.con01Info h3{
+    font-size:16px;
+    font-weight:400;
+}
+.con01Info p{
+    font-size:12px;
+    font-weight:300;
+}
 .con01Info p:last-child{
     margin-top:20px;
     font-size:10px;
+    font-weight:200;
 }
 
 /*mainCon02*/
