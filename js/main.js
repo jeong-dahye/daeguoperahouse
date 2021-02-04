@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $('.con01List').slick({
+        slidesToShow:1, //보이는 슬라디드
+        slidesToScroll:1, //슬라이드 넘기는 수
+        //centerMode:true, // 이미지를 가운데 정렬하여 잘린 이미지도 보이도록 해주는 역할
+        infinite:true, //반복재생
+        arrows:false, //화살표
+        variableWidth:true,
+        autoplay:true,
+        autoplaySpeed:4000,
+        });
+    
+})
